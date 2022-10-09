@@ -5821,7 +5821,8 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 22. WIDGETS
 ---------------------------------------------------------------*/
 .list-2{
-	display: table;
+	display: flex;
+    flex-direction: column;
 }
 .list-2 li{
 	float: left;
