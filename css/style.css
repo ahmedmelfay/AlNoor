@@ -2587,12 +2587,23 @@ blockquote:before {
 .ext-header .main-bar .logo-header{
 	display:none;
 }
+.hide-mobile{
+    display: none !important;
+}
+@media only screen and (min-width: 778px) {
+	.hide-mobile{
+        display: block !important;
+    }
+}
 @media only screen and (max-width: 991px) {
 	.ext-header .main-bar .logo-header{
 		display:table;
 	}
 }
 @media only screen and (max-width: 767px) {
+    .hide-mobile{
+        display: none !important;
+    }
     .extra-nav {
         margin-right: 15px;
     }

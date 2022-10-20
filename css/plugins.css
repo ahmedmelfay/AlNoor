@@ -16,6 +16,9 @@
 @import url("../plugins/lightgallery/css/lightgallery.min.css");
 @import url("../plugins/button-effects/button.css");
 @import url("../plugins/scroll/scrollbar.css");
+/* .hide-mobile{
+    display: none !important; 
+} */
 
 /*=========================
 	All css
