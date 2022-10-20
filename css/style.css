@@ -2590,6 +2590,12 @@ blockquote:before {
 .hide-mobile{
     display: none !important;
 }
+
+.gallery-img{
+    width:  300px;
+    height: 300px;
+    object-fit: cover;
+}
 @media only screen and (min-width: 778px) {
 	.hide-mobile{
         display: block !important;
